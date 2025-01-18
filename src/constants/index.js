@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  froggy,
+  eye,
   
   
 } from "../assets";
@@ -242,6 +244,62 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/RashmikaAkash/Keep_Notes_mobile-App.git",
+  },
+  {
+    name: "Travel Sri Lanka",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/RashmikaAkash/Travel_SriLanka.git",
+  },
+  {
+    name: "Froggy Adventures 🐸✨",
+    description:
+      "I’m thrilled to announce that I’m developing a 2D platformer game using Godot Engine and GDScript! 🚀 Introducing Froggy Adventures 🐸, a fun and vibrant game where players guide a brave frog ninja through challenging levels filled with obstacles, platforms, and enemies.",
+    tags: [
+      {
+        name: "GDScript",
+        color: "blue-text-gradient",
+      },
+      
+    ],
+    image: froggy,
+    source_code_link: "https://github.com/RashmikaAkash/Froggy-Adventures-Game.git",
+  },
+  {
+    name: "Mouse-Using-Eye",
+    description:
+      "I’m excited to share my latest project, Mouse Using Eye, an innovative Python-based solution that allows users to control their computer mouse using eye movements. This project leverages advanced computer vision techniques with libraries like OpenCV, Dlib, and PyAutoGUI to track eye gestures and translate them into precise cursor movements. It’s designed to showcase the potential of hands-free interaction, offering accessibility for individuals with limited mobility while also being an exciting exploration of human-computer interaction. Check out the full project and its implementation on my GitHub: Mouse Using Eye. I’d love to hear your thoughts, feedback, or ideas for future improvements!",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "green-text-gradient",
+      },
+    ],
+    image: eye,
+    source_code_link: "https://github.com/RashmikaAkash/Mouse-Using-Eye.git",
   },
   {
     name: "Travel Sri Lanka",
